@@ -10,6 +10,13 @@ def negatives_number(string):
 
 
 def add(string):
+    delimiter = ',' #it supports delimeters of many length
+
+    if string.startswith('//'):
+        delimiter = string[2] 
+        string = string[3:]
+
+    string = string.replace('\n',',') 
     sum = 0
     numbers = regex.findall(string) # this line is telling the program to find all the regular expressions
     negatives = negatives_number(string)
