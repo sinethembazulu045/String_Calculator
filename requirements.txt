@@ -41,7 +41,7 @@ packaging==20.1
 -e git+https://github.com/sinethembazulu045/Password_checker.git@37b9ae97bde571333c2eb89410398021a4b2e00e#egg=password_checker
 pbr==5.4.4
 pexpect==4.6.0
-Pillow==5.4.1
+Pillow==8.2.0
 pluggy==0.13.1
 protobuf==3.6.1
 psutil==5.5.1
